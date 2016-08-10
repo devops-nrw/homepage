@@ -2,10 +2,13 @@
 @import "normalize";
 
 body {
-  background: #ECC561;
   text-align: center;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
+  background-image: url(../images/machine.jpg);
+  background-color: black;
+  height: 100%;
+  background-position: center top;
 }
 
 .logo img {
@@ -14,11 +17,11 @@ body {
 }
 
 h1 {
-  color: rgba(0,0,0,0.5);
+  color: rgba(255,255,255,0.5);
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.8em;
+  font-size: 6em;
   font-weight: 400;
-  margin: 0;
+  margin-top: 1em;
 }
 
 .doc {
