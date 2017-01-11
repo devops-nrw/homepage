@@ -1,19 +1,41 @@
 @charset "utf-8";
 @import "normalize";
 
+html {
+  min-height: 100%;
+}
+
 body {
   text-align: center;
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
-  background-image: url(../images/machine.jpg);
+  background-image: url(../images/bg.jpg);
   background-color: black;
-  height: 100%;
-  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%;
+  width: 100%;
 }
 
-.logo img {
-  height: 18.75em;
-  margin-top: 6em;
+.welcome {
+  padding: 50px 0 0 0;
+  width: 1024px;
+  max-width: 100%;
+
+  img {
+    display: inline-block;
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  position: absolute;
+  height: 40px;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
 
 h1 {
@@ -22,6 +44,10 @@ h1 {
   font-size: 6em;
   font-weight: 400;
   margin-top: 1em;
+}
+
+a {
+  color: white;
 }
 
 .doc {
