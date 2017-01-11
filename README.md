@@ -10,7 +10,7 @@ Fork or clone this repo. Then, use bundler to install the Ruby stuff:
 bundle install
 ```
   
-Middleman and all its requirements, as well as our additional gems, will be instaled.
+Middleman and all its requirements, as well as our additional gems, will be installed.
 
 To view your local instance, a development webserver is included. Start it like this:
 
@@ -18,7 +18,7 @@ To view your local instance, a development webserver is included. Start it like 
 bundle exec middleman server
 ```
   
-In the source directory, you can find the templates and asset files. Go ahead an edit them!
+In the source directory, you can find the templates and asset files. Go ahead and edit them!
 
 When you are happy with your changes, just push your commits and send us a pull request.
 
