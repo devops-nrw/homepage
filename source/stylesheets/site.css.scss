@@ -7,10 +7,10 @@ html {
 
 body {
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1em;
-  background-image: url(../images/bg.jpg);
-  background-color: black;
+  font-family: 300 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  background-image: url('../images/bg.svg');
+  background-color: #000;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100%;
@@ -22,6 +22,9 @@ body {
   padding: 50px 0 0 0;
   width: 1024px;
   max-width: 100%;
+  -webkit-animation-name: welcome;
+  -webkit-animation-duration: .9s;
+
 
   img {
     display: inline-block;
@@ -40,8 +43,7 @@ footer {
 }
 
 h1 {
-  color: rgba(255,255,255,0.5);
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.5);
   font-size: 6em;
   font-weight: 400;
   margin-top: 1em;
@@ -51,30 +53,22 @@ a {
   color: white;
 }
 
-.doc {
-  margin: 3em 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.1em;
-  font-weight: 300;
+a.btn {
+  display: inline-block;
+  padding: 0.75em 0.7em;
+  margin: 0 0.5rem;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-decoration: none;
+  transition: color 0.1s linear;
 
-  a {
-    border: 1px solid white;
-    border-radius: 3px;
-    padding: 0.75em 0.7em;
-    color: white;
-    text-decoration: none;
-    transition: color 0.1s linear;
-    &:hover {
-      background: rgba(0,0,0,0.2);
-      color: white;
-      transition: all 0.15s linear;
-    }
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+    transition: all 0.15s linear;
   }
-}
-
-.welcome {
-  -webkit-animation-name: welcome;
-  -webkit-animation-duration: .9s;
 }
 
 @-webkit-keyframes welcome {
