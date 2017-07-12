@@ -15,6 +15,9 @@ body {
   background-repeat: no-repeat;
   min-height: 100%;
   width: 100%;
+  color: white;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 .welcome {
@@ -32,11 +35,29 @@ body {
     max-width: 100%;
     margin: 0 auto;
   }
+
+  p {
+    max-width: 400px;
+    padding: 0 20px;
+    margin: 20px auto;
+    line-height: 1.5;
+
+    &.intro {
+      font-size: 1.1rem;
+      margin: 30px auto;
+    }
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+  }
 }
 
 footer {
   position: absolute;
-  height: 40px;
+  height: 30px;
   left: 0;
   right: 0;
   bottom: 0;
